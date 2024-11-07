@@ -4,7 +4,7 @@ import os
 from pymongo import MongoClient
 
 # Kết nối MongoDB Atlas
-client = MongoClient('mongodb+srv://kvan185:123098mz@cluster0.ji7lv.mongodb.net/mydb?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('mongodb+srv://kvan185:123456asdf@cluster0.ji7lv.mongodb.net/mydb?retryWrites=true&w=majority&appName=Cluster0')
 db = client['math_quiz']
 collection = db['quizzes']
 
